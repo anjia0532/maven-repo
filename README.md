@@ -16,3 +16,7 @@ pom.xml:
             </snapshots>
         </repository>
 ```
+
+```bash
+mvn deploy -DaltDeploymentRepository=anjia-mvn-repo::default::file:/path/to/maven-repo/
+````

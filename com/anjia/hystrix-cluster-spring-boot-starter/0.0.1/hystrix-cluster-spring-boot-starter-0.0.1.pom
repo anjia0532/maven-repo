@@ -121,10 +121,11 @@
                 <version>0.12</version>
                 <configuration>
                     <message>Creating site for ${project.version}</message>
-                    <noJekyll>true</noJekyll>
                     <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
                     <branch>refs/heads/master</branch>
-                    <includes><include>**/*</include></includes>
+                    <!--<includes><include>**/*</include></includes>-->
+                    <force>false</force>
+                    <merge>true</merge>
                     <repositoryName>maven-repo</repositoryName>
                     <repositoryOwner>anjia0532</repositoryOwner>
                 </configuration>

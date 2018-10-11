@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.anjia</groupId>
+  <artifactId>hystrix-cluster-spring-boot-starter</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181011020558</lastUpdated>
+  </versioning>
+</metadata>
